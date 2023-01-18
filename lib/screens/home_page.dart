@@ -37,7 +37,7 @@ class _HomePageState extends State<HomePage> {
                   Text("Question $value of 10 Completed", style: otherTextStyle),
                   SizedBox(height: 20),
                   Padding(
-                    padding: const EdgeInsets.all(10.0),
+                    padding: const EdgeInsets.all(0.0),
                     child: LinearProgressIndicator(
                       backgroundColor: Colors.blueGrey,
                       valueColor: AlwaysStoppedAnimation(Colors.black),
@@ -55,7 +55,7 @@ class _HomePageState extends State<HomePage> {
                               text: quesAnsList[_currentIndexNumber].question),
                           back: ReusableCard(
                               text: quesAnsList[_currentIndexNumber].answer))),
-                  Text("Tab to see Answer", style: otherTextStyle),
+                  Text("Tap to see Answer", style: otherTextStyle),
                   SizedBox(height: 20),
                   Row(
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -65,7 +65,7 @@ class _HomePageState extends State<HomePage> {
                               showPreviousCard();
                               updateToPrev();
                             },
-                            icon: Icon(FontAwesomeIcons.handPointLeft, size: 30),
+                            icon: Icon(FontAwesomeIcons.chevronLeft, size: 20),
                             label: Text(""),
                             style: ElevatedButton.styleFrom(
                                 primary: mainColor,
@@ -78,12 +78,12 @@ class _HomePageState extends State<HomePage> {
                               showNextCard();
                               updateToNext();
                             },
-                            icon: Icon(FontAwesomeIcons.handPointRight, size: 30),
+                            icon: Icon(FontAwesomeIcons.chevronRight, size: 20),
                             label: Text(""),
                             style: ElevatedButton.styleFrom(
                                 primary: mainColor,
                                 shape: RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(10)),
+                                    borderRadius: BorderRadius.circular(20)),
                                 padding: EdgeInsets.only(
                                     right: 20, left: 25, top: 15, bottom: 15)))
                       ])

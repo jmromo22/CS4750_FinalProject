@@ -10,7 +10,7 @@ class ReusableCard extends StatelessWidget {
   Widget build(BuildContext context) {
 
     return Padding(
-      padding: EdgeInsets.all(20.0),
+      padding: EdgeInsets.all(10.0),
       child: Card(
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
         elevation: 8,
