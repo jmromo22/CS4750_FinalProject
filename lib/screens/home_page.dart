@@ -35,6 +35,7 @@ class _HomePageState extends State<HomePage> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
                   Text("Question $value of 10", style: otherTextStyle),
+                  Text("Keep up the good work!", style: otherTextStyle),
                   SizedBox(height: 20),
                   Padding(
                     padding: const EdgeInsets.all(0.0),
@@ -55,7 +56,7 @@ class _HomePageState extends State<HomePage> {
                               text: quesAnsList[_currentIndexNumber].question),
                           back: ReusableCard(
                               text: quesAnsList[_currentIndexNumber].answer))),
-                  Text("Tap to see Answer", style: otherTextStyle),
+                  Text("Tap to see Answer!", style: otherTextStyle),
                   SizedBox(height: 20),
                   Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly
