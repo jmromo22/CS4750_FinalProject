@@ -1,11 +1,12 @@
 # flashcards_app
 
-A new Flashcard Flutter project.
+Welcome to Computer Science Flashcards.
 
 A flashcard game for computer science students looking to get into the field and practice
 the most asked interview questions.
 
-These questions are the most asked interview questions for software engineering.
+These questions are the most asked interview questions for software engineering and will help you
+master these questions.
 
 Goodluck!
 
