@@ -34,7 +34,7 @@ class _HomePageState extends State<HomePage> {
             child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-                  Text("Question $value of 10 Completed", style: otherTextStyle),
+                  Text("Question $value of 10", style: otherTextStyle),
                   SizedBox(height: 20),
                   Padding(
                     padding: const EdgeInsets.all(0.0),
@@ -58,7 +58,8 @@ class _HomePageState extends State<HomePage> {
                   Text("Tap to see Answer", style: otherTextStyle),
                   SizedBox(height: 20),
                   Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceAround,
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly
+                      ,
                       children: <Widget>[
                         ElevatedButton.icon(
                             onPressed: () {
